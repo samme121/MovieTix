@@ -12,23 +12,23 @@
  */
 package Users;
 
-public class Users {
+public interface Users {
     
-    private String fname;
-    private String lname; 
-    private String email; 
-    private String password; 
-    private String address;
-    private String cardType;
-    private int phoneNumber;
-    private int age; 
-    private int cardNum;
-    private int cardExp;
-    private int cardZip;
-    private int accountID;
-    private int authorization; 
-    private boolean subscribed;
-    private boolean suspended; 
+    protected String fname;
+    protected String lname; 
+    protected String email; 
+    protected String password; 
+    protected String address;
+    protected String cardType;
+    protected int phoneNumber;
+    protected int age; 
+    protected int cardNum;
+    protected int cardExp;
+    protected int cardZip;
+    protected int accountID;
+    protected int authorization; 
+    protected boolean subscribed;
+    protected boolean suspended; 
     
     /*
      * Users(fname, lname, email, password)
