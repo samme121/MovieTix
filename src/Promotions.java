@@ -19,16 +19,18 @@ public class Promotions {
     private String code; 
     private Date expiration;
     private double percentage;
+    private int id;
 
     /*
      * Promotions()
      * -----------------------------
      * this is our Promotions constructor for creating new promotions
      */
-    public Promotions(String code, Date expiration, double percentage) {
+    public Promotions(String code, Date expiration, double percentage, int id) {
         this.code = code;
         this.expiration = expiration;
         this.percentage = percentage;
+        this.id = id;
     }
 
     public String getCode() {
@@ -53,5 +55,13 @@ public class Promotions {
 
     public void setPercentage(double percentage) {
         this.percentage = percentage;
+    }
+    
+    public int getID() {
+        return id;
+    }
+    
+    public void setID(int id) {
+        this.id = id;
     }
 }
