@@ -35,6 +35,11 @@ public class Movies {
     private Time[] showTimes;
     private Enum genre;
     private boolean nowPlaying;
+    private int id;
+    private String trailer_pic;
+    private String trailer_vid;
+    private String MPAA_rating;
+    private int status;
 
     /*
      * Movies()
@@ -136,5 +141,45 @@ public class Movies {
 
     public void setNowPlaying(boolean nowPlaying) {
         this.nowPlaying = nowPlaying;
+    }
+    
+    public int getID() {
+        return id;
+    }
+
+    public void setID(int id) {
+        this.id = id;
+    }
+    
+    public String getTrailerPic() {
+        return trailer_pic;
+    }
+
+    public void setTrailerPic(String trailerPic) {
+        trailer_pic = trailerPic;
+    }
+    
+    public String getTrailerVid() {
+        return trailer_vid;
+    }
+
+    public void setTrailerVid(String trailerVid) {
+        trailer_vid = trailerVid;
+    }
+    
+    public String getRating() {
+        return MPAA_rating;
+    }
+
+    public void setRating(String rating) {
+        MPAA_rating = rating;
+    }
+    
+    public int getStatus() {
+        return status;
+    }
+
+    public void setStatus(int status) {
+        this.status = status;
     }
 }
