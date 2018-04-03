@@ -13,9 +13,11 @@
  */
 package users;
 
-public class SystemAdmins {
+public class SystemAdmins implements Users {
     
-    private String fname;
+    //IN AN ATTEMPT TO FOLLOW THIS UML I BASICALLY NEED TO START OVER BY ILL JUST COMMENT OUT EVERYTHING
+    //THEY SET UP USERS AS AN INTERFACE SO ILL JUST FOLLOW THE UML FOR WHATS NOT IN THE INTERFACE
+    /*private String fname;
     private String lname;
     private String password; 
     private String address; 
@@ -25,7 +27,7 @@ public class SystemAdmins {
     private int SSN;
     private int age;
     private int authorization;
-    private boolean suspended;
+    private boolean suspended;*/
 
     /*
      * SystemAdmins() 
@@ -33,6 +35,7 @@ public class SystemAdmins {
      * This is the constructor for our system admin class. System admins have the 
      * highest authorization out of all classes representing participants in our system 
      */
+    /*
     public SystemAdmins(String fname, String lname, String email, String password, int SSN) {
         this.fname = fname;
         this.lname = lname;
@@ -128,5 +131,45 @@ public class SystemAdmins {
 
     public void setSuspended(boolean suspended) {
         this.suspended = suspended;
+    }*/
+    
+    
+    
+    //ILL START OVER HERE
+    
+    private int rank = 1;
+    
+    private void enterNewMovie() {
+        //code  
     }
+    
+    private void updateMovie() {
+        //code
+    }
+    
+    private void deleteMovie() {
+        //code
+    }
+    
+    private void addNewEmployee() {
+        //code  
+    }
+    
+    private void updateMemberInformation() {
+        //code
+    }
+    
+    private void deleteMemberInformation() {
+        //code
+    }
+    
+    private void suspendMemberAcct() {
+        //code  
+    }
+    
+    private void addPromotion() {
+        //code
+    }
+    
+    
 } // SystemAdmins
